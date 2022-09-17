@@ -8,7 +8,7 @@ verbs_list = ['Andar', 'amar', 'bater', 'brincar', 'correr', 'ser', 'ir', 'gosta
               'lavar a roupa', 'escrever', 'ler', 'escutar', 'tocar', 'jogar', 'estudar', 'beber', 'comer','entender',
               'fazer', 'falar', 'conversar', 'cozinhar', 'trabalhar', 'dançar', 'parar', 'ter', 'cantar', 'comprar',
               'chorar', 'ligar', 'assistir', 'consertar', 'lavar', 'pular', 'acreditar', 'beijar', 'matar',
-              'lutar', 'copiar', 'curtir,' 'desenhar', 'morder']
+              'lutar', 'copiar', 'curtir', 'desenhar', 'morder']
 
 
 
