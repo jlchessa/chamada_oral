@@ -25,6 +25,12 @@ class BaseDeDados:
         print(f'os verbos selecionados foram: {verbo}')
         nota = int(input(f'Quantos verbos o {nome} acertou? '))
         print(f'A nota do {nome} foi {nota}')
+        
+        self.cursor.execute('CREATE TABLE IF NOT EXISTS notas ('
+                    'id INTEGER PRIMARY KEY,'
+                    'nome TEXT,'
+                    'nota INTEGER'
+                    ')')
         consulta = (f'INSERT OR IGNORE INTO notas (nome, nota) VALUES (?, ?)')
         self.cursor.execute(consulta, (nome, nota))
         self.conn.commit()
